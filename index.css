@@ -1,0 +1,39 @@
+.form {
+    border: 1px solid lightgray;
+    width: 500px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.label {
+    width: 100px;
+    line-height: 44px;
+}
+.input {
+    font-size: 16px;
+    width: 390px;
+    padding: 6px;
+    border: 1px solid lightgray;
+}
+.checkbox-row {
+    display: block;
+}
+.checkbox-box {
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.button {
+    padding: 10px 26px;
+    font-size: 16px;
+    margin-top: 32px;
+    background: none;
+    border: 1px solid lightgray;
+}

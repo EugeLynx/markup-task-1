@@ -3,7 +3,60 @@
 <head>
     <meta charset="utf-8">
     <title>Задача «Подписка на бложик»</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
+    <form class="form">
+        <h1 class="header">
+            Хочу подписаться!
+        </h1>
+        <p >
+            После вашего согласия на подписку вам будут
+            приходить уведомления на почту и телефон
+        </p>
+        <table class="table">
+            <tbody>
+                <tr class="row">
+                    <td class="label">
+                        <label>Ваше имя</label>
+                    </td>
+                    <td>
+                        <input class= "input" placeholder="Имя">
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="label">
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <input id="emailInput" class= "input" placeholder="email@yandex.ru">
+                        <p id="emailAlert"></p>
+                    </td>
+                </tr>
+                
+                <tr></tr>
+
+
+                <tr class="row">
+                    <td class="label">
+                        <label>Телефон</label>
+                    </td>
+                    <td>
+                        <input id="numberInput" class= "input" placeholder="88005553535">
+                    </td>
+                    <td id="numberAlert"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Хочу получать уведомления:</p>
+        <div class="checkbox-row">
+            <input class="checkbox-box" type="checkbox"> на почту
+        </div>
+        <div class="checkbox-row">
+            <input class="checkbox-box" type="checkbox"> на телефон
+        </div>
+        <button class="button" onclick="getNameEmailPhone()">Подписаться</button>
+    </form>
 </body>
 </html>
